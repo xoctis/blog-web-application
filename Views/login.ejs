@@ -1,0 +1,16 @@
+<%- include("Partials/header.ejs") %>
+
+    <div id="logInContainer">
+        <div id="logInHeader">
+            <h1><span class="blog">Blog</span> here, <span class="blog">Blog</span> there,<br> to see it <span class="everywhere">Everywhere!</span></h1>
+        </div>
+        <div id="logInForm">
+            <form action="/login" method="POST">
+                <input type="text" id="username" name="username" placeholder="Username" class="inputLogIn" required><br>
+                <input type="password" id="password" name="password" placeholder="Password" class="inputLogIn" required><br>
+                <input type="submit" id="inputLogIn" value="Log In">
+            </form>
+        </div>
+    </div>
+
+<%- include("Partials/footer.ejs") %>

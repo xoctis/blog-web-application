@@ -1,0 +1,164 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color: #373B3C;
+    color: #ecf3f4;
+}
+
+footer {
+    text-align: end;
+}
+
+/* Log In Area */
+
+#logInContainer {
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#logInHeader {
+    width: 350px;
+}
+
+.blog {
+    color: #E3CEAF;
+}
+
+.everywhere {
+    color: #E5AF89;
+}
+
+.inputLogIn {
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #logInContainer {
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+/* Main Page Area */
+
+#mainPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    width: 728px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#logOutButton {
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    z-index: 1;
+    padding: 10px;
+    background-color: #E5AF89;
+    border: 2px solid #3E4849;
+    border-right: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#blogFormSection {
+    background-color: #E3CEAF;
+    border-radius: 24px;
+    width: 728px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#blogFormSection h2 {
+    color: #373B3C;
+}
+
+#blogForm {
+    background-color: #687D78;
+    border-radius: 14px;
+    padding: 10px;
+    border: 2px solid #3E4849;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#blogList {
+    background-color: #E3CEAF;
+    border-radius: 24px;
+    width: 728px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#blogListHeader {
+    color: #373B3C;
+}
+
+#blogCard {
+    background-color: #687D78;
+    padding: 10px;
+    border: 2px solid #3E4849;
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
+
+.greetingName {
+    color: #E5AF89;
+}
+
+@media only screen and (max-width: 758px) {
+    #blogFormSection {
+        background-color: #E3CEAF;
+        border-radius: 24px;
+        width: 380px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    #blogForm textarea.content {
+        width: 343px;
+    }
+
+    #header {
+        width: 380px;
+    }
+
+    #blogList {
+        width: 380px;
+    }
+
+    .edit-form textarea.content {
+        width: 343px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
